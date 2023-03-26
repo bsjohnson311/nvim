@@ -143,11 +143,13 @@ require('lazy').setup({
     },
   },
 
+  -- Comment plugin
   {'preservim/nerdcommenter'},
 
   -- Fuzzy Finder (files, lsp, etc)
   { 'nvim-telescope/telescope.nvim', version = '*', dependencies = { 'nvim-lua/plenary.nvim' } },
 
+  -- Terminal plugin
   {'akinsho/toggleterm.nvim', version = "*", config = true},
 
   -- Fuzzy Finder Algorithm which requires local dependencies to be built.
