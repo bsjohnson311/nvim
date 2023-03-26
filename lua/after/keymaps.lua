@@ -1,5 +1,5 @@
 -- Toggle Neotree pane
-vim.keymap.set('n', '\\', "<cmd>NvimTreeToggle<cr>")
+vim.keymap.set({'n', 'v'}, '\\', "<cmd>NvimTreeToggle<cr>")
 
 -- Window commands
 vim.keymap.set('n', '<C-|>', "<cmd>vsplit<cr>")
@@ -18,4 +18,3 @@ vim.keymap.set('t', '<C-k>', [[<Cmd>wincmd k<CR>]])
 vim.keymap.set('t', '<C-l>', [[<Cmd>wincmd l<CR>]])
 vim.keymap.set('t', '<C-w>', [[<C-\><C-n><C-w>]])
 vim.keymap.set('t', '<C-q>', [[<C-\><C-n><C-w><C-q>]])
-

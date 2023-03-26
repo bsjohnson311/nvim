@@ -143,14 +143,18 @@ require('lazy').setup({
     },
   },
 
-  -- Comment plugin
-  {'preservim/nerdcommenter'},
-
   -- Fuzzy Finder (files, lsp, etc)
   { 'nvim-telescope/telescope.nvim', version = '*', dependencies = { 'nvim-lua/plenary.nvim' } },
 
+  -- My random plugins
   -- Terminal plugin
   {'akinsho/toggleterm.nvim', version = "*", config = true},
+
+  -- Comment plugin
+  {'preservim/nerdcommenter'},
+
+  -- Align
+  {'junegunn/vim-easy-align'},
 
   -- Fuzzy Finder Algorithm which requires local dependencies to be built.
   -- Only load if `make` is available. Make sure you have the system
