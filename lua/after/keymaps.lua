@@ -2,7 +2,7 @@
 vim.keymap.set({'n', 'v'}, '\\', "<cmd>NvimTreeToggle<cr>")
 
 -- Window commands
-vim.keymap.set('n', '<C-|>', "<cmd>vsplit<cr>")
+vim.keymap.set('n', '<C-S-\\>', "<C-w>v")
 vim.keymap.set('n', '<C-\\>', "<C-w>s")
 vim.keymap.set('n', '<C-l>', "<C-w>l")
 vim.keymap.set('n', '<C-h>', "<C-w>h")
