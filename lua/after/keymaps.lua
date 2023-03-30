@@ -19,3 +19,7 @@ vim.keymap.set('t', '<C-l>', [[<Cmd>wincmd l<CR>]])
 vim.keymap.set('t', '<C-w>', [[<C-\><C-n><C-w>]])
 vim.keymap.set('t', '<C-q>', [[<C-\><C-n><C-w><C-q>]])
 vim.keymap.set('t', '<ESC>', [[<C-\><C-n>]])
+
+-- Sneak keymaps
+vim.keymap.set({'n', 'v', 'o'}, 'f', "<Plug>Sneak_s")
+vim.keymap.set({'n', 'v', 'o'}, 'F', "<Plug>Sneak_S")
